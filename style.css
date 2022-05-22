@@ -2,12 +2,6 @@ html * {
   font-family: Roboto, sans-serif;
 }
 
-body {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
@@ -16,7 +10,15 @@ ul {
 
  }
 
+body {
+	height:  100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0px;
+	margin:  0px;
 
+}
 
 button {
   border: none;
@@ -30,12 +32,11 @@ button {
 
 }
 
-
 .header {
 	background: #1F2937;
 	display:  flex;
-	flex-direction:  row;
 	justify-content: space-between;
+	padding: 20px 0px;
 }
 
 .logo-text {
@@ -73,10 +74,8 @@ button {
 	font-size: 18px;
 	color: #E5E7EB;
 	display: flex;
-	align-content: center;
 	justify-content: center;
 	align-items: center;
-
 }
 
 .quote-div {
@@ -112,6 +111,7 @@ button {
 	padding: 100px;
 	gap:  80px;
 	justify-content: center;
+	/*	margin-bottom: auto; */
 }
 
 .sub-header-text-box {
