@@ -1,3 +1,7 @@
+html * {
+  font-family: Roboto, sans-serif;
+}
+
 body {
 	display: flex;
 	flex-direction: column;
@@ -7,7 +11,24 @@ body {
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+
  }
+
+
+
+button {
+  border: none;
+  border-radius: 8px;
+  background: #3882F6;
+  padding: 8px 16px;
+  color: #F9FAF8;
+  font-weight: 900;
+  font-size: 16px;
+  width: 25%;
+
+}
 
 
 .header {
@@ -24,7 +45,7 @@ ul {
 	color: #F9FAF8;
 	font-size:  24px;
 	margin-left: 200px;
-	font-weight: 900;
+	font-weight: bold;
 }
 
 .header-link {
@@ -35,8 +56,15 @@ ul {
 .header-link-container {
 	display: flex;
 	flex-direction: row;
-	gap: 10px;
+	gap: 30px;
 	margin-right: 200px;
+}
+
+.info-header-text {
+	color:  #1F2937;
+	align-self: center;
+	font-weight: 900;
+	font-size:  36px;
 }
 
 .footer {
@@ -48,5 +76,100 @@ ul {
 	align-content: center;
 	justify-content: center;
 	align-items: center;
+
+}
+
+.quote-div {
+	font-size: 36px;
+	color: #1F2937;
+	font-style: italic;
+	width: 930px;
+}
+
+
+.hero-style {
+	font-size:  48px;
+	color: #F9FAF8;
+	font-weight: 850;
+}
+
+.hero-secondary-style {
+	font-size: 18px;
+	color: #E5E7EB;
+}
+
+.sub-header {
+	display:  flex;
+	background: #1F2937;
+	padding: 100px;
+	gap:  80px;
+	justify-content: center;
+}
+
+.sub-header-text-box {
+	display:  flex;
+	flex-direction:  column;
+	width: 515px;
+	gap: 10px;
+}
+
+.sub-header-image {
+	display:  flex;
+	width: 515px;
+	background: #E5E7EB;
+	align-items:  center;
+	justify-content: center;
+}
+
+.middle-content-first {
+	display:  flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px;
+}
+
+.middle-content-second {
+	display: flex;
+	flex-direction: column;
+	background: #E5E7EB;
+	padding: 100px;
+	align-items: center;
+}
+
+.middle-content-third {
+	display: flex;
+}
+
+.info-block {
+	display: flex;
+	flex-direction: row;
+}
+
+.info-block-item {
+	display: flex;
+	flex-direction: column;
+	width: 180px;
+	align-items: center;
+	gap: 10px;
+	padding: 30px;
+}
+
+
+.info-image {
+	border: solid;
+	border-width: 3px;
+	border-color: #3882F6;
+  border-radius: 8px;
+  background: white;
+  padding: 8px 16px;
+  font-weight: 900;
+  font-size: 16px;
+  width: 130px;
+  height: 130px;
+
+}
+
+.info-block-text{
+	text-align: center;
 
 }
