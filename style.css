@@ -86,6 +86,14 @@ button {
 	width: 930px;
 }
 
+.quote-credit {
+	display: flex;
+	width:  930px;
+	justify-content: flex-end;
+	font-weight: bold;
+	margin-right: 80px;
+}
+
 
 .hero-style {
 	font-size:  48px;
@@ -138,6 +146,7 @@ button {
 
 .middle-content-third {
 	display: flex;
+	justify-content: center;
 }
 
 .info-block {
@@ -171,5 +180,42 @@ button {
 
 .info-block-text{
 	text-align: center;
+
+}
+
+.notification-container {
+	background: #3882F6;
+	border: none;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  margin: 100px;
+  padding: 50px 100px;
+}
+
+.mct-title {
+	font-weight: bold;
+	font-size: 18px;
+	color: whitesmoke;
+
+}
+
+.mct-message {
+	display: flex;
+	flex-direction: column;
+
+}
+
+.mct-text {
+	color: whitesmoke;
+	width: 725px;
+}
+
+.mct-button {
+	border: solid;
+	border-width: 2px;
+	border-color: whitesmoke;
+  border-radius: 8px;
+  width: 150px;
 
 }
